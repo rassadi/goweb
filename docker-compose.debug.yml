@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  goweb:
+    image: goweb
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - 7448:7448
